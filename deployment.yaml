@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: web-server
-        image: nginx
+        image: olilanz/mini-game
         ports:
         - containerPort: 80
         - containerPort: 443
