@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: web-server
-        image: olilanz/mini-game
+        image: alexwhen/docker-2048
         ports:
         - containerPort: 80
         - containerPort: 443
