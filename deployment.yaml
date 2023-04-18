@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: web-server
-        image: jenkins/jenkins
+        image: nginx
         ports:
         - containerPort: 80
         - containerPort: 443
